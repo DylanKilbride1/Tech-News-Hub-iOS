@@ -9,11 +9,12 @@
 /* Begin PBXBuildFile section */
 		53883FAD24265F3F000D98C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53883FAC24265F3F000D98C8 /* AppDelegate.swift */; };
 		53883FAF24265F3F000D98C8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53883FAE24265F3F000D98C8 /* SceneDelegate.swift */; };
-		53883FB124265F3F000D98C8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53883FB024265F3F000D98C8 /* ViewController.swift */; };
-		53883FB424265F3F000D98C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53883FB224265F3F000D98C8 /* Main.storyboard */; };
 		53883FB624265F41000D98C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53883FB524265F41000D98C8 /* Assets.xcassets */; };
 		53883FB924265F41000D98C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53883FB724265F41000D98C8 /* LaunchScreen.storyboard */; };
 		53883FC424265F41000D98C8 /* Tech_News_HubTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53883FC324265F41000D98C8 /* Tech_News_HubTests.swift */; };
+		53883FD3242D1A81000D98C8 /* FirstScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53883FD2242D1A81000D98C8 /* FirstScreen.swift */; };
+		53883FD7242D2631000D98C8 /* SecondScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53883FD6242D2631000D98C8 /* SecondScreen.swift */; };
+		53883FD9242D2C8D000D98C8 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53883FD8242D2C8D000D98C8 /* Colors.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,14 +31,15 @@
 		53883FA924265F3F000D98C8 /* Tech News Hub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tech News Hub.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		53883FAC24265F3F000D98C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		53883FAE24265F3F000D98C8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		53883FB024265F3F000D98C8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		53883FB324265F3F000D98C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		53883FB524265F41000D98C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		53883FB824265F41000D98C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		53883FBA24265F41000D98C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		53883FBF24265F41000D98C8 /* Tech News HubTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tech News HubTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		53883FC324265F41000D98C8 /* Tech_News_HubTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tech_News_HubTests.swift; sourceTree = "<group>"; };
 		53883FC524265F41000D98C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53883FD2242D1A81000D98C8 /* FirstScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstScreen.swift; sourceTree = "<group>"; };
+		53883FD6242D2631000D98C8 /* SecondScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondScreen.swift; sourceTree = "<group>"; };
+		53883FD8242D2C8D000D98C8 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,11 +83,12 @@
 			children = (
 				53883FAC24265F3F000D98C8 /* AppDelegate.swift */,
 				53883FAE24265F3F000D98C8 /* SceneDelegate.swift */,
-				53883FB024265F3F000D98C8 /* ViewController.swift */,
-				53883FB224265F3F000D98C8 /* Main.storyboard */,
 				53883FB524265F41000D98C8 /* Assets.xcassets */,
 				53883FB724265F41000D98C8 /* LaunchScreen.storyboard */,
 				53883FBA24265F41000D98C8 /* Info.plist */,
+				53883FD2242D1A81000D98C8 /* FirstScreen.swift */,
+				53883FD6242D2631000D98C8 /* SecondScreen.swift */,
+				53883FD8242D2C8D000D98C8 /* Colors.xcassets */,
 			);
 			path = "Tech News Hub";
 			sourceTree = "<group>";
@@ -180,9 +183,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53883FD9242D2C8D000D98C8 /* Colors.xcassets in Resources */,
 				53883FB924265F41000D98C8 /* LaunchScreen.storyboard in Resources */,
 				53883FB624265F41000D98C8 /* Assets.xcassets in Resources */,
-				53883FB424265F3F000D98C8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,7 +203,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				53883FB124265F3F000D98C8 /* ViewController.swift in Sources */,
+				53883FD3242D1A81000D98C8 /* FirstScreen.swift in Sources */,
+				53883FD7242D2631000D98C8 /* SecondScreen.swift in Sources */,
 				53883FAD24265F3F000D98C8 /* AppDelegate.swift in Sources */,
 				53883FAF24265F3F000D98C8 /* SceneDelegate.swift in Sources */,
 			);
@@ -225,14 +229,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		53883FB224265F3F000D98C8 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				53883FB324265F3F000D98C8 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		53883FB724265F41000D98C8 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

@@ -1,5 +1,5 @@
 //
-//  FirstScreen.swift
+//  ProfileBaseViewController.swift
 //  Tech News Hub
 //
 //  Created by Dylan on 26/03/2020.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class FirstScreen: UIViewController {
+class ProfileBaseViewController: UIViewController {
     
     let nextButton = UIButton()
     
@@ -17,16 +17,8 @@ class FirstScreen: UIViewController {
         setupView()
     }
     
-    override func viewWillAppear(_ animated: Bool) {
-        self.navigationController?.setNavigationBarHidden(true, animated: true)
-    }
-    
-    override func viewWillDisappear(_ animated: Bool) {
-        self.navigationController?.setNavigationBarHidden(false, animated: true)
-    }
-    
     func setupView() {
-        self.view.backgroundColor = UIColor(named: "feedBackgroundColor")
+        self.view.backgroundColor = UIColor(named: "standardBackgroundColor")
     }
     
 //    func setupNextButton() {
@@ -50,7 +42,7 @@ class FirstScreen: UIViewController {
 //    }
 //
 //    @objc func nextButtonTapped() {
-//        let nextScreen = SecondScreen()
+//        let nextScreen = FeedPreferencesBaseViewController()
 //        nextScreen.title = "Second"
 //        navigationController?.pushViewController(nextScreen, animated: true)
 //    }

@@ -29,15 +29,15 @@ class BaseTabBarController: UITabBarController {
     let feedPreferencesViewController = FeedPreferencesBaseViewController()
     let feedViewController = MainFeedViewController()
     
-    let feedPreferencesTabBarItem = UITabBarItem(title: "Preferences",
+    let feedPreferencesTabBarItem = UITabBarItem(title: NSLocalizedString("tab.bar.feed.preferences.title", comment: ""),
                                                  image: UIImage(named: "TabBarIcons/feed-preferences-unselected-icon"),
                                                  selectedImage: UIImage(named: "TabBarIcons/feed-preferences-selected-icon"))
     
-    let feedTabBarItem = UITabBarItem(title: "Feed",
+    let feedTabBarItem = UITabBarItem(title: NSLocalizedString("tab.bar.feed.title", comment: ""),
                                       image: UIImage(named: "TabBarIcons/feed-unselected-icon"),
                                       selectedImage: UIImage(named: "TabBarIcons/feed-selected-icon"))
     
-    let profileTabBarItem = UITabBarItem(title: "Profile",
+    let profileTabBarItem = UITabBarItem(title: NSLocalizedString("tab.bar.profile.title", comment: ""),
                                          image: UIImage(named: "TabBarIcons/profile-unselected-icon"),
                                          selectedImage: UIImage(named: "TabBarIcons/profile-selected-icon"))
     

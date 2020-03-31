@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
+  <file original="Tech News Hub/en.lproj/InfoPlist.strings" source-language="en" target-language="en" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.3" build-num="11C29"/>
+    </header>
+    <body>
+      <trans-unit id="CFBundleName" xml:space="preserve">
+        <source>Tech News Hub</source>
+        <target>Tech News Hub</target>
+        <note>Bundle name</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="Tech News Hub/en.lproj/Localizable.strings" source-language="en" target-language="en" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="11.3" build-num="11C29"/>
+    </header>
+    <body>
+      <trans-unit id="tab.bar.feed.preferences.title" xml:space="preserve">
+        <source>Preferences</source>
+        <target>Preferences</target>
+        <note>Localizable.strings
+  Tech News Hub
+
+  Created by Dylan on 28/03/2020.
+  Copyright © 2020 The Tech News Hub. All rights reserved.</note>
+      </trans-unit>
+      <trans-unit id="tab.bar.feed.title" xml:space="preserve">
+        <source>Feed</source>
+        <target>Feed</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="tab.bar.profile.title" xml:space="preserve">
+        <source>Profile</source>
+        <target>Profile</target>
+        <note/>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

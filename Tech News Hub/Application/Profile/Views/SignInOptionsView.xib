@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment version="4608" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15702"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SignInOptionsView" customModule="Tech_News_Hub" customModuleProvider="target">
+            <connections>
+                <outlet property="contentView" destination="iN0-l3-epB" id="7yr-TT-5Qa"/>
+                <outlet property="facebookSignInContainer" destination="fXY-pg-JLM" id="o2J-Gm-HMX"/>
+                <outlet property="googleSignInContainer" destination="Z0P-nb-r6w" id="g0p-Wg-dIN"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" userLabel="Content View">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="216"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Z0P-nb-r6w" userLabel="Google Sign In Container">
+                    <rect key="frame" x="60" y="40" width="294" height="50"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="cYH-dM-jP7"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fXY-pg-JLM" userLabel="Facebook Sign In Container">
+                    <rect key="frame" x="60" y="126" width="294" height="50"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="pFL-jn-BoW"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Z0P-nb-r6w" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="60" id="CHy-Hd-gyq"/>
+                <constraint firstItem="fXY-pg-JLM" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="60" id="RBW-CY-qJi"/>
+                <constraint firstAttribute="trailing" secondItem="Z0P-nb-r6w" secondAttribute="trailing" constant="60" id="VZS-R7-MAY"/>
+                <constraint firstAttribute="bottom" secondItem="fXY-pg-JLM" secondAttribute="bottom" constant="40" id="X7n-XW-xfQ"/>
+                <constraint firstAttribute="trailing" secondItem="fXY-pg-JLM" secondAttribute="trailing" constant="60" id="nWh-Fx-G5r"/>
+                <constraint firstItem="Z0P-nb-r6w" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="40" id="t7a-45-CfY"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="111.59420289855073" y="101.78571428571428"/>
+        </view>
+    </objects>
+</document>

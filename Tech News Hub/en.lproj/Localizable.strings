@@ -9,3 +9,5 @@
 "tab.bar.feed.preferences.title" = "Preferences";
 "tab.bar.feed.title" = "Feed";
 "tab.bar.profile.title" = "Profile";
+"sign.in.separator.text" = "Sign In";
+"sign.in.offering.text" = "Sign in to personalise your news feed to see the types articles you want";

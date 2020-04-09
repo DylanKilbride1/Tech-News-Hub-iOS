@@ -10,9 +10,10 @@ target 'Tech News Hub' do
   target 'Tech News HubTests' do
     inherit! :search_paths
     # Pods for testing
+    pod 'Kiwi'
   end
 
-#Pod for Google Sign-In
- pod 'GoogleSignIn', '~> 5.0'
+    pod 'GoogleSignIn', '~> 5.0'
+    pod 'SnapKit', '~> 5.0.0'
 
 end

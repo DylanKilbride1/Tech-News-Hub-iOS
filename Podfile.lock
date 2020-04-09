@@ -16,9 +16,13 @@ PODS:
   - GTMSessionFetcher/Core (1.3.1)
   - GTMSessionFetcher/Full (1.3.1):
     - GTMSessionFetcher/Core (= 1.3.1)
+  - Kiwi (3.0.0)
+  - SnapKit (5.0.1)
 
 DEPENDENCIES:
   - GoogleSignIn (~> 5.0)
+  - Kiwi
+  - SnapKit (~> 5.0.0)
 
 SPEC REPOS:
   trunk:
@@ -26,13 +30,17 @@ SPEC REPOS:
     - GoogleSignIn
     - GTMAppAuth
     - GTMSessionFetcher
+    - Kiwi
+    - SnapKit
 
 SPEC CHECKSUMS:
   AppAuth: 73574f3013a1e65b9601a3ddc8b3158cce68c09d
   GoogleSignIn: 7137d297ddc022a7e0aa4619c86d72c909fa7213
   GTMAppAuth: 4deac854479704f348309e7b66189e604cf5e01e
   GTMSessionFetcher: cea130bbfe5a7edc8d06d3f0d17288c32ffe9925
+  Kiwi: fbeafef0f00e4d8f7dcb3420a4930afe70af77f7
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
 
-PODFILE CHECKSUM: 749adf40170c4d047c3ad5d196fd5891e58b7d0c
+PODFILE CHECKSUM: 7548b64bbf1029a860453e193e6347db9fad3af7
 
 COCOAPODS: 1.9.1

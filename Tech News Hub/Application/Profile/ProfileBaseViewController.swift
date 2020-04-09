@@ -7,43 +7,32 @@
 //
 
 import UIKit
+import GoogleSignIn
 
 class ProfileBaseViewController: UIViewController {
-    
-    let nextButton = UIButton()
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        setupView()
-    }
-    
-    func setupView() {
-        self.view.backgroundColor = UIColor(named: "standardBackgroundColor")
-    }
-    
-//    func setupNextButton() {
-//        nextButton.backgroundColor = .white
-//        nextButton.setTitleColor(.red, for: .normal)
-//        nextButton.setTitle("NEXT", for: .normal)
-//
-//        nextButton.addTarget(self, action: #selector(nextButtonTapped), for: .touchUpInside)
-//
-//        view.addSubview(nextButton)
-//        setupNextButtonConstraints()
-//
-//    }
-//
-//    func setupNextButtonConstraints() {
-//        nextButton.translatesAutoresizingMaskIntoConstraints = false
-//        nextButton.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 20).isActive = true
-//        nextButton.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -20).isActive = true
-//        nextButton.heightAnchor.constraint(equalToConstant: 50).isActive = true
-//        nextButton.centerYAnchor.constraint(equalTo: view.centerYAnchor, constant: 0).isActive = true
-//    }
-//
-//    @objc func nextButtonTapped() {
-//        let nextScreen = FeedPreferencesBaseViewController()
-//        nextScreen.title = "Second"
-//        navigationController?.pushViewController(nextScreen, animated: true)
-//    }
+  
+  let nextButton = UIButton()
+  @IBOutlet weak var signInOptionsContainer: SignInOptionsView!
+  
+  override func viewDidLoad() {
+    super.viewDidLoad()
+    setupViews()
+    GIDSignIn.sharedInstance()?.presentingViewController = self
+    //GIDSignIn.sharedInstance()?.restorePreviousSignIn()
+  }
+  
+  func setupViews() {
+    self.view.backgroundColor = UIColor(named: "standardBackgroundColor")
+    self.signInOptionsContainer.bottomAnchor.constraint(equalTo: self.view.safeAreaLayoutGuide.bottomAnchor).isActive = true
+  }
+
+  func signIn(signIn: GIDSignIn!, didSignInForUser user: GIDGoogleUser!,
+    withError error: NSError!) {
+      if (error == nil) {
+        // Perform any operations on signed in user here.
+        // ...
+      } else {
+        print("\(error.localizedDescription)")
+      }
+  }
 }

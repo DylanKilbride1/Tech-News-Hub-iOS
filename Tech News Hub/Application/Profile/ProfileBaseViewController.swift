@@ -22,8 +22,8 @@ class ProfileBaseViewController: UIViewController {
   }
   
   func setupViews() {
-    self.view.backgroundColor = UIColor(named: "standardBackgroundColor")
-    self.signInOptionsContainer.bottomAnchor.constraint(equalTo: self.view.safeAreaLayoutGuide.bottomAnchor).isActive = true
+    view.backgroundColor = UIColor(named: "standardBackgroundColor")
+    signInOptionsContainer.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor).isActive = true
   }
 
   func signIn(signIn: GIDSignIn!, didSignInForUser user: GIDGoogleUser!,

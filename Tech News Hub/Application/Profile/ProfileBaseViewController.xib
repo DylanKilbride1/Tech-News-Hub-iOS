@@ -17,18 +17,18 @@
             <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rYa-F3-5t5" userLabel="Sign-in Options Container" customClass="SignInOptionsView" customModule="Tech_News_Hub" customModuleProvider="target">
-                    <rect key="frame" x="0.0" y="563" width="414" height="250"/>
-                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                    <constraints>
-                        <constraint firstAttribute="height" constant="250" id="jSx-Sk-sXS"/>
-                    </constraints>
-                </view>
                 <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kLE-Jm-maY" userLabel="Sign-in Separator" customClass="SignInSeparatorView" customModule="Tech_News_Hub" customModuleProvider="target">
                     <rect key="frame" x="0.0" y="437" width="414" height="118"/>
                     <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="60" id="nt1-PW-6B6"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rYa-F3-5t5" userLabel="Sign-in Options Container" customClass="SignInOptionsView" customModule="Tech_News_Hub" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="563" width="414" height="250"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="250" id="jSx-Sk-sXS"/>
                     </constraints>
                 </view>
             </subviews>

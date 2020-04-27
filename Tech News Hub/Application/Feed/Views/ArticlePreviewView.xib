@@ -8,17 +8,23 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ArticlePreviewView" customModule="Tech_News_Hub" customModuleProvider="target">
             <connections>
-                <outlet property="articleContentView" destination="PIm-fq-XEL" id="8pg-T2-GPM"/>
+                <outlet property="articleAuthorView" destination="6l0-vV-9ym" id="szC-9W-uFf"/>
+                <outlet property="articleCategory" destination="U2h-0F-ZXx" id="B8p-Tr-oZW"/>
+                <outlet property="articleContentView" destination="XxX-Ft-Nh8" id="IPr-vH-HdH"/>
+                <outlet property="articleImageView" destination="XxX-Ft-Nh8" id="i4L-ct-cdB"/>
+                <outlet property="articleTextPreview" destination="Gm0-NA-S2A" id="u9Q-pu-epJ"/>
+                <outlet property="articleTitle" destination="acG-d3-lPl" id="rzm-hw-wte"/>
                 <outlet property="contentBackgroundView" destination="iN0-l3-epB" id="hHd-ph-gZ3"/>
+                <outlet property="shareButton" destination="0lP-xr-OTL" id="HSS-qq-6PB"/>
             </connections>
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <view contentMode="scaleToFill" id="iN0-l3-epB" userLabel="Content Background View">
-            <rect key="frame" x="0.0" y="0.0" width="300" height="278"/>
+            <rect key="frame" x="0.0" y="0.0" width="300" height="294"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PIm-fq-XEL" userLabel="Article Content View">
-                    <rect key="frame" x="0.0" y="0.0" width="300" height="248"/>
+                    <rect key="frame" x="0.0" y="0.0" width="300" height="264"/>
                     <subviews>
                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icedcoffee" translatesAutoresizingMaskIntoConstraints="NO" id="XxX-Ft-Nh8">
                             <rect key="frame" x="0.0" y="0.0" width="300" height="130"/>
@@ -39,11 +45,11 @@
                             <nil key="highlightedColor"/>
                         </label>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6l0-vV-9ym" userLabel="Article Author View" customClass="ArticleAuthorView" customModule="Tech_News_Hub" customModuleProvider="target">
-                            <rect key="frame" x="10" y="230" width="235" height="13"/>
+                            <rect key="frame" x="10" y="230" width="235" height="29"/>
                             <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         </view>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0lP-xr-OTL">
-                            <rect key="frame" x="265" y="229" width="15" height="15"/>
+                            <rect key="frame" x="265" y="237" width="15" height="15"/>
                             <constraints>
                                 <constraint firstAttribute="width" constant="15" id="43h-Nu-SrZ"/>
                                 <constraint firstAttribute="height" constant="15" id="6nP-sE-xMW"/>
@@ -71,7 +77,7 @@
                     </constraints>
                 </view>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="#TECHNOLOGY" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.80000000000000004" translatesAutoresizingMaskIntoConstraints="NO" id="U2h-0F-ZXx" userLabel="Category Label">
-                    <rect key="frame" x="15" y="253" width="124" height="20"/>
+                    <rect key="frame" x="15" y="269" width="124" height="20"/>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <nil key="highlightedColor"/>
@@ -89,7 +95,7 @@
                 <constraint firstItem="U2h-0F-ZXx" firstAttribute="top" secondItem="PIm-fq-XEL" secondAttribute="bottom" constant="5" id="zri-iU-tNh"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-            <point key="canvasLocation" x="137.68115942028987" y="147.99107142857142"/>
+            <point key="canvasLocation" x="137.68115942028987" y="153.34821428571428"/>
         </view>
     </objects>
     <resources>

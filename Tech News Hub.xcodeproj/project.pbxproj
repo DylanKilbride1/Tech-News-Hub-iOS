@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		53230EB324544EF90023827E /* MainFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53230EB224544EF90023827E /* MainFeedViewController.swift */; };
+		53230EB6245451020023827E /* UIView+TNH.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53230EB5245451020023827E /* UIView+TNH.swift */; };
+		53230EB824545EB90023827E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53230EB724545EB90023827E /* Constants.swift */; };
 		53274254242EA8B900E709AC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53274253242EA8B900E709AC /* Images.xcassets */; };
-		5327425A242EBFAB00E709AC /* MainFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53274259242EBFAB00E709AC /* MainFeedViewController.swift */; };
 		5327426E242F9DCA00E709AC /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 53274270242F9DCA00E709AC /* Localizable.strings */; };
 		5330B5BF243784C700B7F160 /* SignInOptionsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5330B5BE243784C700B7F160 /* SignInOptionsView.xib */; };
 		5330B5C1243784F200B7F160 /* SignInOptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5330B5C0243784F200B7F160 /* SignInOptionsView.swift */; };
@@ -28,7 +30,6 @@
 		53DA9C31243F6A930034E36A /* ArticleAuthorView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 53DA9C30243F6A930034E36A /* ArticleAuthorView.xib */; };
 		53DA9C372441E63E0034E36A /* ArticlePreviewView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 53DA9C362441E63E0034E36A /* ArticlePreviewView.xib */; };
 		53DA9C392441E74D0034E36A /* ArticlePreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53DA9C382441E74D0034E36A /* ArticlePreviewView.swift */; };
-		53DA9C3B2441E89F0034E36A /* MainFeedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 53DA9C3A2441E89F0034E36A /* MainFeedViewController.xib */; };
 		7C46628FABCA650C3A0917BE /* Pods_Tech_News_Hub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFB0F4E04DBA948086CBBD95 /* Pods_Tech_News_Hub.framework */; };
 		D3BD1C29B4E0E1CD10552EAB /* Pods_Tech_News_HubTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A38089B09C565435A07D0786 /* Pods_Tech_News_HubTests.framework */; };
 /* End PBXBuildFile section */
@@ -44,8 +45,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		53230EB224544EF90023827E /* MainFeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainFeedViewController.swift; sourceTree = "<group>"; };
+		53230EB5245451020023827E /* UIView+TNH.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+TNH.swift"; sourceTree = "<group>"; };
+		53230EB724545EB90023827E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		53274253242EA8B900E709AC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		53274259242EBFAB00E709AC /* MainFeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainFeedViewController.swift; sourceTree = "<group>"; };
 		53274269242F9D5B00E709AC /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		5327426A242F9D6100E709AC /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		5327426B242F9D6500E709AC /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
@@ -76,7 +79,6 @@
 		53DA9C30243F6A930034E36A /* ArticleAuthorView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ArticleAuthorView.xib; sourceTree = "<group>"; };
 		53DA9C362441E63E0034E36A /* ArticlePreviewView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ArticlePreviewView.xib; sourceTree = "<group>"; };
 		53DA9C382441E74D0034E36A /* ArticlePreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticlePreviewView.swift; sourceTree = "<group>"; };
-		53DA9C3A2441E89F0034E36A /* MainFeedViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainFeedViewController.xib; sourceTree = "<group>"; };
 		8C497CEF7BFFC0E026AE7CD1 /* Pods-Tech News Hub.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tech News Hub.debug.xcconfig"; path = "Target Support Files/Pods-Tech News Hub/Pods-Tech News Hub.debug.xcconfig"; sourceTree = "<group>"; };
 		A38089B09C565435A07D0786 /* Pods_Tech_News_HubTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tech_News_HubTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA3962479B8CED8627993094 /* Pods-Tech News HubTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tech News HubTests.release.xcconfig"; path = "Target Support Files/Pods-Tech News HubTests/Pods-Tech News HubTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -105,6 +107,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		53230EB4245450DB0023827E /* Extensions-Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				53230EB5245451020023827E /* UIView+TNH.swift */,
+				53230EB724545EB90023827E /* Constants.swift */,
+			);
+			path = "Extensions-Utilities";
+			sourceTree = "<group>";
+		};
 		53274255242EB95300E709AC /* Application */ = {
 			isa = PBXGroup;
 			children = (
@@ -119,8 +130,7 @@
 		53274256242EB97800E709AC /* Feed */ = {
 			isa = PBXGroup;
 			children = (
-				53274259242EBFAB00E709AC /* MainFeedViewController.swift */,
-				53DA9C3A2441E89F0034E36A /* MainFeedViewController.xib */,
+				53230EB224544EF90023827E /* MainFeedViewController.swift */,
 				53DA9C2D243F6A450034E36A /* Views */,
 			);
 			path = Feed;
@@ -178,6 +188,7 @@
 		53883FAB24265F3F000D98C8 /* Tech News Hub */ = {
 			isa = PBXGroup;
 			children = (
+				53230EB4245450DB0023827E /* Extensions-Utilities */,
 				53274255242EB95300E709AC /* Application */,
 				53883FAC24265F3F000D98C8 /* AppDelegate.swift */,
 				53883FAE24265F3F000D98C8 /* SceneDelegate.swift */,
@@ -327,7 +338,6 @@
 				53274254242EA8B900E709AC /* Images.xcassets in Resources */,
 				53883FB924265F41000D98C8 /* LaunchScreen.storyboard in Resources */,
 				53DA9C31243F6A930034E36A /* ArticleAuthorView.xib in Resources */,
-				53DA9C3B2441E89F0034E36A /* MainFeedViewController.xib in Resources */,
 				5330B5C52438029700B7F160 /* SignInSeparatorView.xib in Resources */,
 				5330B5C32437A28300B7F160 /* ProfileBaseViewController.xib in Resources */,
 				53883FB624265F41000D98C8 /* Assets.xcassets in Resources */,
@@ -448,15 +458,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				5330B5C7243809CD00B7F160 /* SignInSeparatorView.swift in Sources */,
+				53230EB324544EF90023827E /* MainFeedViewController.swift in Sources */,
 				53883FD3242D1A81000D98C8 /* ProfileBaseViewController.swift in Sources */,
 				53DA9C2F243F6A840034E36A /* ArticleAuthorView.swift in Sources */,
-				5327425A242EBFAB00E709AC /* MainFeedViewController.swift in Sources */,
+				53230EB6245451020023827E /* UIView+TNH.swift in Sources */,
 				53883FDB242E99BE000D98C8 /* BaseTabBarController.swift in Sources */,
 				53883FD7242D2631000D98C8 /* FeedPreferencesBaseViewController.swift in Sources */,
 				53DA9C392441E74D0034E36A /* ArticlePreviewView.swift in Sources */,
 				53883FAD24265F3F000D98C8 /* AppDelegate.swift in Sources */,
 				53883FAF24265F3F000D98C8 /* SceneDelegate.swift in Sources */,
 				5330B5C1243784F200B7F160 /* SignInOptionsView.swift in Sources */,
+				53230EB824545EB90023827E /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

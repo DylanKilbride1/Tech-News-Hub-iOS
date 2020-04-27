@@ -22,7 +22,7 @@ class ProfileBaseViewController: UIViewController {
   }
   
   func setupViews() {
-    view.backgroundColor = UIColor(named: "standardBackgroundColor")
+    view.backgroundColor = Colors.standardBackgroundColor
     signInOptionsContainer.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor).isActive = true
   }
 

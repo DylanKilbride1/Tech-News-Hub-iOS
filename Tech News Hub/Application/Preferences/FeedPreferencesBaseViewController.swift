@@ -16,6 +16,6 @@ class FeedPreferencesBaseViewController: UIViewController {
   }
   
   func setupView() {
-    self.view.backgroundColor = UIColor(named: "standardBackgroundColor")
+    self.view.backgroundColor = Colors.standardBackgroundColor
   }
 }

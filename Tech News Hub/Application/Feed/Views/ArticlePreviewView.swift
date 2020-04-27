@@ -8,18 +8,24 @@
 
 import UIKit
 
-class ArticlePreviewView: UIView {
+class ArticlePreviewView: UITableViewCell {
   
   @IBOutlet var contentBackgroundView: UIView!
   @IBOutlet weak var articleContentView: UIView!
+  @IBOutlet weak var articleImageView: UIImageView!
+  @IBOutlet weak var articleTitle: UILabel!
+  @IBOutlet weak var articleTextPreview: UILabel!
+  @IBOutlet weak var articleAuthorView: ArticleAuthorView!
+  @IBOutlet weak var shareButton: UIButton!
+  @IBOutlet weak var articleCategory: UILabel!
   
   required init?(coder aDecoder: NSCoder) {
     super.init(coder: aDecoder)
     commonInit()
   }
   
-  override init(frame: CGRect) {
-    super.init(frame: frame)
+  override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
+    super.init(style: style, reuseIdentifier: reuseIdentifier)
     commonInit()
   }
   
@@ -33,7 +39,7 @@ class ArticlePreviewView: UIView {
   
   private func setupViewTheme() {
     backgroundColor = .systemBlue
-    articleContentView.backgroundColor = UIColor.init(named: "articlePreviewBackgroundColor")
+    articleContentView.backgroundColor = Colors.articlePreviewBackgroundColor
   }
   
   private func roundViewCorners() {

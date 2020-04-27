@@ -33,7 +33,7 @@ class SignInSeparatorView: UIView {
   }
   
   func setupViewTheme() {
-    contentView.backgroundColor = UIColor.init(named: "standardBackgroundColor")
+    contentView.backgroundColor = Colors.standardBackgroundColor
     signInLabel.textColor = UIColor.init(named: "profileSignInLabelColor")
   }
 

@@ -39,7 +39,7 @@ class SignInOptionsView: UIView {
   }
   
   func setupViewTheme() {
-    self.contentView.backgroundColor = UIColor.init(named: "standardBackgroundColor")
+    self.contentView.backgroundColor = Colors.standardBackgroundColor
     addGoogleSignInButton()
   }
   

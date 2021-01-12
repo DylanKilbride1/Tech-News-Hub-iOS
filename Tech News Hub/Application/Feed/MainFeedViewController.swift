@@ -11,26 +11,27 @@ import UIKit
 class MainFeedViewController: UIViewController {
   
   var tableView = UITableView()
-
+  @IBOutlet weak var articleTableView: UITableView!
+  
   override func viewDidLoad() {
     super.viewDidLoad()
     configureTableView()
   }
   
   func configureTableView() {
-    view.addSubview(tableView)
+    view.addSubview(articleTableView)
     setTableViewDelegates()
-    tableView.rowHeight = 295
-    tableView.backgroundColor = Colors.standardBackgroundColor
+    articleTableView.rowHeight = 295
+    articleTableView.backgroundColor = Colors.standardBackgroundColor
     view.backgroundColor = Colors.standardBackgroundColor
-    tableView.register(ArticlePreviewView.self, forCellReuseIdentifier: "ArticlePreviewCell")
-    tableView.pinToEdges(superView: view)
+    articleTableView.register(ArticlePreviewView.self, forCellReuseIdentifier: "ArticlePreviewCell")
+    articleTableView.pinToEdges(superView: view)
     
   }
   
   func setTableViewDelegates() {
-    tableView.delegate = self
-    tableView.dataSource = self
+    articleTableView.delegate = self
+    articleTableView.dataSource = self
   }
 }
 
@@ -45,6 +46,7 @@ extension MainFeedViewController: UITableViewDelegate, UITableViewDataSource {
   func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
     
     let cell = tableView.dequeueReusableCell(withIdentifier: "ArticlePreviewCell") as! ArticlePreviewView
+    
     return cell
     //What cells is it showing
   }

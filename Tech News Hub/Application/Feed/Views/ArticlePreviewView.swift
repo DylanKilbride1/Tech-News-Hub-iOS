@@ -29,9 +29,14 @@ class ArticlePreviewView: UITableViewCell {
     commonInit()
   }
   
+  override func layoutSubviews() {
+    super.layoutSubviews()
+    self.contentView.frame = self.contentView.frame.inset(by: UIEdgeInsets(top: 10, left: 10, bottom: 10, right: 10))
+  }
+  
   private func commonInit() {
     Bundle.main.loadNibNamed("ArticlePreviewView", owner: self, options: nil)
-    addSubview(contentBackgroundView)
+    //addSubview(contentBackgroundView)
     contentBackgroundView.frame = self.bounds
     setupViewTheme()
     roundViewCorners()

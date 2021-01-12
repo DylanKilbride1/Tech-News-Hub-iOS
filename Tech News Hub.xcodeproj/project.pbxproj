@@ -10,6 +10,7 @@
 		53230EB324544EF90023827E /* MainFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53230EB224544EF90023827E /* MainFeedViewController.swift */; };
 		53230EB6245451020023827E /* UIView+TNH.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53230EB5245451020023827E /* UIView+TNH.swift */; };
 		53230EB824545EB90023827E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53230EB724545EB90023827E /* Constants.swift */; };
+		53230EBA245780250023827E /* MainFeedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 53230EB9245780250023827E /* MainFeedViewController.xib */; };
 		53274254242EA8B900E709AC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53274253242EA8B900E709AC /* Images.xcassets */; };
 		5327426E242F9DCA00E709AC /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 53274270242F9DCA00E709AC /* Localizable.strings */; };
 		5330B5BF243784C700B7F160 /* SignInOptionsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5330B5BE243784C700B7F160 /* SignInOptionsView.xib */; };
@@ -48,6 +49,7 @@
 		53230EB224544EF90023827E /* MainFeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainFeedViewController.swift; sourceTree = "<group>"; };
 		53230EB5245451020023827E /* UIView+TNH.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+TNH.swift"; sourceTree = "<group>"; };
 		53230EB724545EB90023827E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		53230EB9245780250023827E /* MainFeedViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainFeedViewController.xib; sourceTree = "<group>"; };
 		53274253242EA8B900E709AC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		53274269242F9D5B00E709AC /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		5327426A242F9D6100E709AC /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
@@ -131,6 +133,7 @@
 			isa = PBXGroup;
 			children = (
 				53230EB224544EF90023827E /* MainFeedViewController.swift */,
+				53230EB9245780250023827E /* MainFeedViewController.xib */,
 				53DA9C2D243F6A450034E36A /* Views */,
 			);
 			path = Feed;
@@ -338,6 +341,7 @@
 				53274254242EA8B900E709AC /* Images.xcassets in Resources */,
 				53883FB924265F41000D98C8 /* LaunchScreen.storyboard in Resources */,
 				53DA9C31243F6A930034E36A /* ArticleAuthorView.xib in Resources */,
+				53230EBA245780250023827E /* MainFeedViewController.xib in Resources */,
 				5330B5C52438029700B7F160 /* SignInSeparatorView.xib in Resources */,
 				5330B5C32437A28300B7F160 /* ProfileBaseViewController.xib in Resources */,
 				53883FB624265F41000D98C8 /* Assets.xcassets in Resources */,
